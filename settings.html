@@ -1,0 +1,33 @@
+<html>
+<head>
+</head>
+
+<body style="width:200px; height:330px; margin:0px">
+
+<strong>1. Enter Google Credentials:</strong>
+<hr />
+
+<label for="gMail">e-mail:</label><br />
+<input type="text" id="gMail" name="gMail" onkeydown="document.getElementById('comboList').options.length=0" /><br />
+
+<label for="gPassword">password:</label><br />
+<input type="password" id="gPassword" name="gPassword" onkeydown="document.getElementById('comboList').options.length=0" /><br />
+
+<input type="button" value="retrieve my calendars" onclick="startAuth('list')" /><br />
+<br />
+
+<strong>2. Choose a calendar:</strong>
+<hr />
+<select id="comboList" size="7" style="width:194px">
+</select>
+
+<textarea id="debug" rows="10" cols="30" style="display:none"></textarea>
+
+<div id="status" style="display:none"></div>
+<script type="text/javascript" src="js/settings.js"></script>
+
+<hr />
+&copy; raneri / flenczewski
+
+</body>
+</html>
