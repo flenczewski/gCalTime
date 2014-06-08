@@ -1,0 +1,17 @@
+gCalTasks gadget 1.0 License
+---------------------
+
+January, 28th 2009
+
+gCalTasks gadgets is distruited as "Free Software" from RANERI WEB DESIGN (www.raneri.it).
+It can be copied, distribuited, used (also for commercial/professional purposes) and modified/included in
+third party softwares.
+
+The only request for developers/commercial entities that want to use gCalTasks sources, to include them in
+a new software (or online project, etc.) is to always mention RANERI WEB DESIGN in credits, and to put a
+contextual link to http://www.raneri.it to make users know about the original author.
+
+
+Riccardo Raneri
+Raneri Web Design
+http://www.raneri.it
