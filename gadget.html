@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <title>gCalTime</title>
+  <script type="text/javascript" src="js/startup.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+  <link rel="stylesheet" href="css/screen.css" type="text/css" /> 
+</head>
+
+<body>
+<div id="blocker"></div>
+<g:background id="background" align="center" style="z-index:-1;position:absolute;top:0;left:0;width:300px;height:50px;background:#000" />
+
+<div id="wrap">
+  <div id="stopWatch">-:--:--:--</div>
+  <div id="update"></div>
+  <div id="status"></div>  
+  <div>
+      <input type="text" name="taskTitle" id="taskTitle" value="enter task title..." disabled="disabled" onclick="initializeTaskTitle(this)" onkeypress="enterPress(event)"/>
+      <input type="button" class="btn" id="StartButton" value="Start" onclick="startTimer()" disabled="disabled" /> <input type="button" class="btn" id="StopButton" value="Stop" onclick="stopTimer()" disabled="disabled" /> <input type="button" id="CancelButton" value="Reset" onclick="cancelTimer()" disabled="disabled" /><br />
+  </div>
+  <div id="copyright">&copy; raneri / flenczewski</div>
+  <div id="debug"></div>
+</div>
+
+<script type="text/javascript">
+  startAuth();
+</script>
+
+</body>
+
+</html>
