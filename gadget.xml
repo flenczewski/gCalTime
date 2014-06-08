@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+    <name>gCalTime</name>
+    <author name="Riccardo Raneri/Fabian Lenczewski">
+    </author>
+    <copyright>2009 Raneri Web Design, mod by flenczewski</copyright>
+    <description>Simple gadget to log time passed on projects directly to Google Calendar.</description>
+    <version>1.0.0.2</version>
+    <icons>
+      <icon src="icon.png" />
+    </icons>
+    <hosts>
+      <host name="sidebar">
+        <base type="HTML" apiVersion="1.0.0" src="gadget.html" />
+        <platform minPlatformVersion="1.0" />
+        <permissions>Full</permissions>
+      </host>
+    </hosts>
+</gadget>
